@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#70ab81, #a2806a);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-size: cover;
+}
+
+.logo {
+  color: #fff;
+  margin-top: 10%;
+  width: 80%;
+  height:80%;
+}
+
+.form-control {
+  background: transparent;
+  margin: 2%;
+}
+
+.input-group .form-control,
+.input-group-addon,
+.input-group-btn {
+  display: table-cell;
+  height: 80px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 30px;
+}
+
+.boton1 {
+  background: transparent;
+  width: 104%;
+  height: 80px;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 5%;
+}
