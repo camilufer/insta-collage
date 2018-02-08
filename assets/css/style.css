@@ -1,0 +1,80 @@
+/* COLOR CODES
+* #E7E2D8
+* #CAB6A8
+* #4A625E
+* #85AAA2
+* #BAD1CC
+* #E5E9EA
+*/
+body{
+  background-color: #FFDCE3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.marco{
+  height: 50%;
+  margin:0;
+}
+
+
+.collage {
+  height: 50vh;
+  width: 100%;
+  }
+
+.photos{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em;
+  height: 50vh;
+  width: 100%;
+}
+
+
+
+.collage figure {
+  height: 50%;
+  padding: 2px;
+  overflow: hidden;
+  border: 1px dashed #BD547A;
+  margin: 0;
+}
+
+.collage img {
+  width: 100%;
+  height: auto;
+}
+
+.photos {
+  padding: 1em;
+}
+
+.photos-container.col-3 {
+  padding: 2px;
+  position: relative;
+  margin: 0;
+}
+
+.photos img {
+  cursor: move;
+  height: 100%;
+  width: auto; 
+}
+
+.photos figure {
+  position: absolute;
+  height: 100%;
+  padding: 0.5em;
+  overflow: hidden;
+  object-fit: center;  
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+ } 
